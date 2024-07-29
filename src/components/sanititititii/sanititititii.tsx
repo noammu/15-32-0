@@ -22,13 +22,13 @@ export const Sanititititii = ({ className }: SanititititiiProps) => {
                     {
                         <div className={styles.grid}>
                             <img src={PikachuPng} alt="" height="100" className={styles.img1} />
-                            <h2>ddddddddddddddd</h2>
+                            <h2>This was changed in another branch!</h2>
                         </div>
                     }
                 </UseMe>
             </div>
             <div>
-                <h1 className={styles.header1}>H1</h1>
+                <h1 className={styles.header1}>H1 </h1>
             </div>
             <main>
                 <strong>
