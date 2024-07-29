@@ -1,0 +1,47 @@
+.root {
+  background-color: #fff998;
+}
+.grid {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  gap: 20px;
+}
+.img1 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  justify-self: center;
+  border: 5px solid black;
+}
+.header1 {
+  width: 55px;
+}
+.header2 {
+  font-family: Monaco, monospace;
+  font-weight: 600;
+  color: #f85959;
+  text-align: center;
+  direction: ltr;
+}
+.span1 {
+  position: fixed;
+  top: 55px;
+  right: 455px;
+  margin: 5px;
+  padding: 5px;
+}
+
+@media (width < 100px) {
+  .root {
+    background-color: pink;
+  }
+}
+@media (100px <= width < 400px) {
+  .root {
+    background-color: red;
+  }
+}
+@media (400px <= width) {
+  .root {
+    background-color: #fff998;
+  }
+}
