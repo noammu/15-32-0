@@ -8,4 +8,5 @@ export default createBoard({
     environmentProps: {
         windowWidth: 900,
     },
+    tags: ['pikachu', 'sanity'],
 });

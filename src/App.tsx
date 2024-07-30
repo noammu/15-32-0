@@ -1,10 +1,12 @@
 import styles from './App.module.scss';
 import ViteSvg from './assets/vite.svg';
 import TypescriptSvg from './assets/typescript.svg';
+import { Sanititititii } from './components/sanititititii/sanititititii';
 
 function App() {
     return (
         <div className={styles.App}>
+            <Sanititititii className={styles.sanititititii} />
             <h2>Welcome to your App Component 🎉</h2>
             <span>
                 Double click to edit App component

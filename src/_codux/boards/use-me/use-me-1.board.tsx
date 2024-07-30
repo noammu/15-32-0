@@ -11,10 +11,6 @@ const Compy = () => <div>dd</div>;
 
 export default createBoard({
     name: 'UseMe 1',
-    Board: () => (
-        <UseMe strProp={strVar} compProp={Compy}>
-            {jsxVar}
-        </UseMe>
-    ),
+    Board: () => <UseMe>{jsxVar}</UseMe>,
     isSnippet: true,
 });
