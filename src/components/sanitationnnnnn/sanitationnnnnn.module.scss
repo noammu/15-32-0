@@ -1,0 +1,21 @@
+.root {
+}
+.header1 {
+  font-size: 3rem;
+}
+.canvas1 {
+  border: 5px solid black;
+  background-color: #ffa8a8;
+}
+.img1 {
+  width: 175px;
+}
+.div1 {
+  width: 100vw;
+  height: 100vh;
+}
+.grid {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  gap: 20px;
+}

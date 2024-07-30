@@ -8,4 +8,5 @@ export default createBoard({
     name: 'UseMe',
     Board: () => <UseMe className={styles.asdasd}>{'blibla'}</UseMe>,
     isSnippet: true,
+    tags: ['woohoo', 'using', 'rules', 'use'],
 });

@@ -1,9 +1,6 @@
 import classNames from 'classnames';
 import styles from './sanititititii.module.scss';
 import { useState } from 'react';
-import { UseMe } from '../use-me/use-me';
-import { ReactComponent as TypescriptSvg } from '../../assets/typescript.svg';
-import PikachuPng from '../../assets/pikachu.png';
 
 export interface SanititititiiProps {
     className?: string;
@@ -16,17 +13,7 @@ export const Sanititititii = ({ className }: SanititititiiProps) => {
     };
     return (
         <div className={classNames(styles.root, className)}>
-            <div>
-                <UseMe>
-                    <TypescriptSvg />
-                    {
-                        <div className={styles.grid}>
-                            <img src={PikachuPng} alt="" height="100" className={styles.img1} />
-                            <h2>This was changed in another branch!</h2>
-                        </div>
-                    }
-                </UseMe>
-            </div>
+            <div></div>
             <div>
                 <h1 className={styles.header1}>H1 </h1>
             </div>
